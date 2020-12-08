@@ -10,11 +10,13 @@ body {
     background-color: rgb(71, 151, 221);
     color: rgb(255, 241, 215); 
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .spacing {
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
 
 }
 
@@ -41,3 +43,20 @@ body {
       font-size: large;
       margin: 5px;
   }
+
+.flex-column {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blue {
+    color: rgb(0, 46, 107);
+    font-weight: 700;
+}
+
+.center {
+    text-align: center;
+}
